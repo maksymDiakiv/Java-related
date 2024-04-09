@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.lab2.HelloController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <MenuBar prefWidth="379.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="nowy" />
+                  <RadioMenuItem mnemonicParsing="false" text="Unspecified Action" />
+                  <RadioMenuItem mnemonicParsing="false" text="Unspecified Action" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <RadioButton mnemonicParsing="false" text="niebieski" />
+                  <RadioButton mnemonicParsing="false" text="zielony" />
+                  <RadioButton mnemonicParsing="false" text="czerwony" />
+               </children></VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <RadioButton mnemonicParsing="false" text="1" />
+                  <RadioButton mnemonicParsing="false" text="2" />
+                  <RadioButton mnemonicParsing="false" text="3" />
+                  <Label text="Laboratorium 2" />
+               </children></VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <CheckBox mnemonicParsing="false" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" text="CheckBox" />
+                  <CheckBox mnemonicParsing="false" text="CheckBox" />
+               </children></VBox>
+         </children>
+      </HBox>
+      <TabPane prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE" />
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+            <VBox prefHeight="200.0" prefWidth="100.0" />
+         </children>
+      </HBox>
+      <TabPane fx:id="ss" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Untitled Tab 1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab text="Untitled Tab 2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab text="Untitled Tab">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>
